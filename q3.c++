@@ -11,4 +11,3 @@ int main() {
     cout << input << endl; //output
     return 0;
 }
-
