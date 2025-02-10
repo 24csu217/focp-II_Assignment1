@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-void printSpiral(int n) {
+void Spiral_matrix(int n) {
     int matrix[n][n];
     int num = 1;
     for (int layer = 0; layer < (n + 1) / 2; layer++) {
@@ -28,6 +28,6 @@ int main() {
     int n;
     cout << "Enter the size of the matrix: ";
     cin >> n;
-    printSpiral(n);
+    Spiral_matrix(n);
     return 0;
 }
