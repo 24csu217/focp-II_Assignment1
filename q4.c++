@@ -29,5 +29,4 @@ int main() {
     cout << "Enter the size of the matrix: ";
     cin >> n;
     Spiral_matrix(n);
-    return 0;
-}
+    return 0;}
