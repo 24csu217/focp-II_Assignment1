@@ -8,13 +8,6 @@ int main(){
             cin>>arr[i][j];
         }
     }
-    cout<<"Original matrix: "<<endl;
-    for(i=0; i<3; i++){
-        for(j=0; j<3; j++){
-            cout<<"\t"<<arr[i][j];
-        }
-        cout<<endl;
-    }
     cout<<endl;
     cout<<"Rotated Matrix: "<<endl;
     for(i=0; i<3; i++){
